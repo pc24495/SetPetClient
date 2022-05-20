@@ -1,0 +1,9 @@
+.content {
+  /* margin-top: var(--toolbar-height); */
+  position: absolute;
+  margin-top: 0px;
+  height: 200px;
+  width: 100vw;
+  margin-bottom: 100px;
+  background-color: aqua;
+}

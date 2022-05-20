@@ -7,6 +7,32 @@
   pointer-events: none;
 }
 
+.Blah {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(255, 148, 77);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginBox {
+  height: 80%;
+  width: 70%;
+  border-radius: 30px;
+  background-color: rgb(204, 102, 0);
+}
+
+.TestDiv {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
